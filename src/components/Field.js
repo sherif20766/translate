@@ -1,7 +1,14 @@
 import React from "react";
 
-const Field = () => {
-	return <div>Field</div>;
-};
+class Field extends React.Component {
+	render() {
+		return (
+			<div className="ui field">
+				<label>Name</label>
+				<input />
+			</div>
+		);
+	}
+}
 
 export default Field;
