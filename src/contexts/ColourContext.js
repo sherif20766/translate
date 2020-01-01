@@ -1,3 +1,3 @@
 import React from "react";
 
-export default React.CreateContext("red");
+export default React.createContext("red");
